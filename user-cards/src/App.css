@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.users {
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 30%;
+  background-color: aquamarine;
+}
+
+.users.remove {
+  display: none;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;;
+}
+
+.follower-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.btn {
+  margin: 15px;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+  width: 150px;
+}
